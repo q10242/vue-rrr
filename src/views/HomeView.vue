@@ -55,6 +55,7 @@
 <script>
 import QrcodeVue from "qrcode.vue";
 import axios from 'axios'
+import { integer } from "css-tree/lib/lexer/generic";
 export default {
   components: {
     QrcodeVue
@@ -77,11 +78,12 @@ export default {
   methods :{
     reurl: function () {
       var url = "http://localhost:9010/redirect"
+      var probability = parseInt(this.probability) 
       var payload = {
         originUrl: this.origin_url,
-        probability: this.probability
+        probability: probability
       }
-  
+      console.log(payload)
       axios.post(url,payload).then((res)=> {
         if (res.data.ID != undefined) {
             this.result = res.data
