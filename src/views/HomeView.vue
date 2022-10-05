@@ -77,7 +77,7 @@ export default {
   },
   methods :{
     reurl: function () {
-      var url = "http://localhost:9010/redirect"
+      var url = "https://rrr_backend.otus.tw/redirect"
       var probability = parseInt(this.probability) 
       var payload = {
         originUrl: this.origin_url,
