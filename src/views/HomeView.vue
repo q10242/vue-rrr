@@ -7,6 +7,8 @@
         <p class="grow-0">Warning: the shorter url might redirect you to the 
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Rick Roll </a> 
             Youtube video.</p>
+        <p class="grow-0">if you have any question or issue. please contat me : <a href="kyjita@gmail.com">kyjita@gmail.com </a> 
+            or use  <a href="https://term.ptt.cc/">BBS ptt </a>  account id: q10242 to contact me. </p>
         <div class="grid p-3 grid-rows-3 w-full gap-3 justify-items-center ">
 
           <div class="inline-flex w-full justify-self-start">
